@@ -12,6 +12,7 @@ export default async function Page({params}) {
   <div className={tableStyles.container}>
     <h1>{data.symbol ? data.symbol : params.symbol}</h1>
     <h5>unique holders: {data.uniqueHolders}</h5>
+    <h5>total supply: {data.totalSupply}</h5>
  {   data.tokenHistogram.bars == undefined ? " Data could not found!"  :  <table>
   <tr>
     <th>range</th>
