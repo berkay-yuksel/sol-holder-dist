@@ -2,7 +2,7 @@
     display: flex;
   width: 100%;
     flex-wrap: wrap;
-  margin-top: 5vh;
+  margin-top: -3vh;
 
 }
 .container a {
@@ -21,6 +21,14 @@
 
 
 .card h5{
-   width: 200px;
+   width: 400px;
+   font-size: 1vw;
    
+}
+.otherButton{
+  padding: 3vw 1.5vw;
+  font-size: 1vw;
+}
+.otherButton:hover{
+  text-decoration: underline;
 }

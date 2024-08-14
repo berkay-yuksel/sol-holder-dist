@@ -1,5 +1,6 @@
 .container{
 padding: 1em;
+font-size: 2vw;
 }
 .container h1 {
     padding-bottom: 1vw;
@@ -13,3 +14,11 @@ padding-right: 5vw;
 .container  table tr th{
     padding-right: 5vw;
     }
+
+    .otherButton{
+      padding: 3vw 1.5vw;
+        font-size: 1vw;
+      }
+      .otherButton:hover{
+        text-decoration: underline;
+      }
