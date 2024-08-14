@@ -16,9 +16,9 @@ export default async function Page() {
   <div className={cardStyles.container}>
         
   {data.map(item => ( 
-    <Link href={ `api/collection/${item.symbol}`} > 
+    <Link key={item.id} href={ `api/collection/${item.symbol}`} > 
 
-    <div className={cardStyles.card} key={item.id}>
+    <div className={cardStyles.card} >
        <Image
      src={item.image ? item.image : "" }
      width={200}
