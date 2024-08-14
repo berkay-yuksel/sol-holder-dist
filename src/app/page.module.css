@@ -6,11 +6,11 @@
 
 }
 .main div{
-  margin:  20vw 10vw;
+  margin:  25vh 10vh;
 
 }
 .main a {
-  font-size: 2vw;
+  font-size: 3vh;
 }
 .main a:hover{
   color: lightgrey !important;
@@ -32,65 +32,18 @@
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
-  font-size: 1vw;
-margin-top: 7vw;
-margin-left: 2vw;
+  font-size: 1.5vh;
+margin-top: 15vw;
+margin-left: 6vw;
 }
 
 .description a:hover { 
   text-decoration: underline;
 }
-.description p {
-  position: relative;
-  margin: 0;
-  padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
-}
 
-.code {
-  font-weight: 700;
-  font-family: var(--font-mono);
-}
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(25%, auto));
-  max-width: 100%;
-  width: var(--max-width);
-}
 
-.card {
-  padding: 1rem 1.2rem;
-  border-radius: var(--border-radius);
-  background: rgba(var(--card-rgb), 0);
-  border: 1px solid rgba(var(--card-border-rgb), 0);
-  transition: background 200ms, border 200ms;
-}
 
-.card span {
-  display: inline-block;
-  transition: transform 200ms;
-}
-
-.card h2 {
-  font-weight: 600;
-  margin-bottom: 0.7rem;
-}
-
-.card p {
-  margin: 0;
-  opacity: 0.6;
-  font-size: 0.9rem;
-  line-height: 1.5;
-  max-width: 30ch;
-  text-wrap: balance;
-}
-
-.center {
-
-}
 
 .center::before {
   background: var(--secondary-glow);
@@ -142,25 +95,22 @@ margin-left: 2vw;
   .content {
     padding: 4rem;
   }
+  .main {
+flex-direction: column;
+justify-content: space;
+  margin: 15vh 0vh;
+  }
+  .main div{
+    margin: 2vh;
+  
+  }
+  .main a {
+    font-size: 2.5vh;
 
-  .grid {
-    grid-template-columns: 1fr;
-    margin-bottom: 120px;
-    max-width: 320px;
-    text-align: center;
   }
 
-  .card {
-    padding: 1rem 2.5rem;
-  }
 
-  .card h2 {
-    margin-bottom: 0.5rem;
-  }
-
-  .center {
-    padding: 8rem 0 6rem;
-  }
+ 
 
   .center::before {
     transform: none;

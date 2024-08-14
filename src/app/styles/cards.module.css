@@ -32,3 +32,27 @@
 .otherButton:hover{
   text-decoration: underline;
 }
+
+@media (max-width: 700px) {
+  .container{
+    margin-top: 0;
+    margin-left: 2vh;
+    align-content: center;
+  }
+  .card{
+    margin: 1vh;
+  }
+  .card img{
+   height: 15vh;
+   width: 15vh;
+}
+.card h5{
+  width: 15vh;
+  font-size: 1vh;
+  
+}
+.otherButton{
+  padding: 2vh 3vh;
+    font-size: 2vh;
+  }
+}
